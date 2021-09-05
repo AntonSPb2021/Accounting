@@ -1,0 +1,190 @@
+@import "functionFontSize";
+
+html, body {
+  color: #000;
+}
+
+.preview, .client, .feedback, .footer {
+  
+  .button-style {
+    color: #fff;
+    background-color: #005FA3;
+    
+    &:hover {
+      background-color: #BDBDBD;
+      color: #000;
+    }
+  }
+  
+  .point__item_blue, .block__arrow_blue {
+    background-color: #005FA3;
+  }
+}
+
+.header {
+  background: #F9F9F9;
+  
+  .logo__title:hover {
+    color: #005FA3;
+  }
+  
+  .menu-top__link {
+    color: #000;
+    
+    &:hover {
+      color: #005FA3;
+    }
+  }
+  
+  .menu-bottom__link {
+    color: #222;
+  
+    &:hover {
+      color: #005FA3;
+    }
+  }
+  
+  .button > span,
+  .button > span::before,
+  .button > span::after {
+    background-color: #616161;
+  }
+  
+  .box {
+    background-color: #EBEBEB;
+    
+    //&__item {
+    //  color: #333;
+    //}
+    
+    &__link {
+      color: #000;
+      
+      &:hover{
+        color: #005FA3;
+      }
+    }
+  }
+}
+
+.preview {
+
+  .description__title {
+    color: #fff;
+  }
+  
+  .point__item-preview {
+    background-color: #fff;
+  }
+  
+  .block__arrow {
+    background-color: #656565;
+  }
+}
+
+.services {
+  background: #EBEBEB;
+  
+  .services__title-services {
+    color: #BDBDBD;
+  }
+  
+  .title-specialization:hover {
+    color: #005FA3;
+  }
+  
+  .accounting__description {
+    color: #fff;
+  }
+}
+
+.about-company {
+  background: #F9F9F9;
+  
+  .about-us-title {
+    color: #BDBDBD;
+  }
+  
+  .about-main__title, .about-main__subtitle {
+    
+    &:hover {
+      color: #005FA3;
+    }
+  }
+  
+  .transactions__item  {
+    background: #EBEBEB;
+    
+    &:hover {
+      background: #005FA3;
+      color: #fff;
+    }
+  }
+  
+  .transaction {
+    background: #EBEBEB;
+    
+    &__link {
+      color: #005FA3;
+    }
+    
+    &:hover {
+      background: #005FA3;
+      color: #fff;
+      
+      .transaction__link {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.client {
+  background: #EBEBEB;
+  
+  .title-client {
+    color: #BDBDBD;
+  }
+  
+  .title-work:hover {
+    color: #005FA3;
+  }
+  
+  //.services__title-services {
+  //  color: #BDBDBD;
+  //}
+  //
+  //.accounting__description {
+  //  color: #fff;
+  //}
+  
+}
+
+.feedback {
+  
+  .title-feedback {
+    color: #BDBDBD;
+  }
+  
+  .title-gratitude:hover {
+    color: #005FA3;
+  }
+  
+  .business-card {
+    background-color: #EBEBEB;
+  }
+}
+
+.footer {
+  .info-card {
+    color: #fff;
+  }
+  
+  .contact__link {
+    color: #fff;
+  }
+  
+  .data, .message {
+    color: #fff;
+  }
+}

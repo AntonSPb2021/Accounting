@@ -1,0 +1,112 @@
+@import "functionFontSize";
+
+.title-services {
+  font-family: Lato, sans-serif;
+  font-size: rem(24px);
+  font-weight: 900;
+  
+  @media (max-width: 1115px) {
+    display: flex;
+   justify-content: center;
+  }
+  
+  @media (max-width: 666px){
+    font-size: rem(16px);
+  }
+}
+
+.services__title-services {
+  margin-top: rem(140px);
+  
+  @media (max-width: 666px){
+    margin-top: rem(50px);
+  }
+}
+
+.title-specialization {
+  font-family: Merriweather, sans-serif;
+  font-weight: 900;
+  font-size: rem(48px);
+  
+  @media (max-width: 1115px) {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 666px) {
+    font-size: rem(34px);
+  }
+  
+  @media (max-width: 500px) {
+    font-size: rem(18px);
+  }
+}
+
+.services__title-specialization {
+  margin: rem(40px) 0 rem(102px) 0;
+  
+  @media (max-width: 666px){
+    margin: rem(20px) 0 rem(50px) 0;
+  }
+}
+
+.accounting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: pointer;
+  
+  @media (max-width: 1115px){
+    margin: 0 2%;
+  }
+  
+  @media (max-width: 900px){
+    margin: 0 5%;
+  }
+  
+  &__items {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/services.png') no-repeat center;
+    background-size: cover;
+    width: 350px /1116px * 100%;
+    height: 360px;
+    margin-bottom: rem(30px);
+  
+    @media (max-width: 900px){
+      width: 45%;
+    }
+  
+    @media (max-width: 550px){
+      width: 80%;
+    }
+    
+    &:hover {
+      background:linear-gradient(0deg, rgba(0, 95, 163, 0.35), rgba(0, 95, 163, 0.35)), url('../img/buhsix.png') no-repeat center;
+    }
+    
+    &:last-child {
+      margin-bottom: rem(110px);
+  
+      @media (max-width: 666px) {
+        margin-bottom: rem(30px);
+      }
+    }
+  }
+  
+  .specialization__accounting {
+    margin-top: rem(30px);
+  }
+  
+  .accounting__description {
+    font-size: rem(24px);
+    font-weight: 900;
+    margin: rem(231px) rem(118px) rem(45px) rem(45px);
+    
+    @media (max-width: 666px){
+      display: flex;
+      justify-content: center;
+      margin: rem(231px) auto;
+      font-size: rem(20px);
+      line-height: rem(25px);
+    }
+  }
+}

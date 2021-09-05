@@ -1,0 +1,205 @@
+@import "functionFontSize";
+
+.about-company__container {
+  flex-direction: column;
+}
+
+.about-us-title {
+  font-size: rem(24px);
+  font-weight: 900;
+  line-height: rem(33px);
+  
+  @media (max-width: 1115px) {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 666px) {
+    font-size: rem(18px);
+  }
+}
+
+.about-company__title {
+  margin-top: rem(140px);
+  
+  @media (max-width: 666px) {
+    margin-top: rem(50px);
+  }
+}
+
+.ivanov-prom {
+  display: flex;
+  
+  @media (max-width: 1115px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.about-main {
+  width: 50%;
+  
+  @media (max-width: 1115px) {
+    width: 90%;
+  }
+}
+
+.about-company__about-main {
+  margin-top: rem(30px);
+  
+  @media (max-width: 666px) {
+    margin-top: rem(15px);
+  }
+}
+
+.about-main__subtitle {
+  cursor: pointer;
+  @media (max-width: 1115px) {
+    margin-left: rem(20px);
+  }
+  
+  @media (max-width: 550px) {
+    margin-left: rem(10px);
+  }
+}
+
+.about-main__title {
+  line-height: rem(69px);
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: rem(48px);
+  
+  @media (max-width: 1115px) {
+    display: flex;
+    justify-content: center;
+    font-size: rem(48px);
+    line-height: rem(39px);
+  }
+
+  @media (max-width: 730px) {
+    font-size: rem(26px);
+  }
+
+  @media (max-width: 450px) {
+    font-size: rem(18px);
+  }
+}
+
+.about-main__description {
+  margin-top: rem(60px);
+  font-size: rem(18px);
+  font-weight: 300;
+  width: 445px / 558px * 100%;
+  line-height: rem(25px);
+
+  @media (max-width: 1115px) {
+    margin-bottom: rem(30px);
+    width: 100%;
+    //text-align: center;
+    line-height: rem(35px);
+  }
+
+  @media (max-width: 730px) {
+    font-size: rem(14px);
+    margin-top: 30px;
+    line-height: rem(26px);
+    padding: 0 5%;
+  }
+
+  @media (max-width: 450px) {
+    font-size: rem(16px);
+    width: 100%;
+    padding: 0 10%;
+  }
+}
+
+.ivanov-prom__transactions-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+  cursor: pointer;
+  
+  @media (max-width: 1115px) {
+    margin-bottom: rem(30px);
+    width: 90%;
+  }
+  
+  @media (max-width: 470px) {
+    padding: 0 5%;
+  }
+}
+
+.transaction {
+  width: 45%;
+  height: 275px;
+  margin-bottom: rem(20px);
+  
+  &:nth-last-child(1) {
+    margin-bottom: rem(140px);
+  
+    @media (max-width: 470px) {
+      margin-bottom: rem(20px);
+    }
+  }
+  
+  @media (max-width: 1115px) {
+    width: 22.5%
+  }
+  
+  @media (max-width: 930px) {
+    width: 45%;
+  }
+
+  @media (max-width: 470px) {
+    width: 90%;
+  }
+
+
+  &__title {
+    margin: rem(30px) 0 0 rem(40px);
+    font-size: rem(55px);
+    line-height: rem(66px);
+    font-weight: 900;
+  
+    @media (max-width: 470px) {
+      display: flex;
+      justify-content: center;
+      margin-top: rem(30px);
+      margin-left: 0;
+    }
+
+    @media (max-width: 320px) {
+      font-size: rem(34px);
+    }
+  }
+
+  &__description {
+    margin: rem(30px) 0 rem(47px) rem(40px);
+    font-weight: 700;
+    line-height: rem(14px);
+  
+    @media (max-width: 470px) {
+      display: flex;
+      justify-content: center;
+      margin-top: rem(30px);
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+
+  &__link {
+    margin: rem(47px) 0 rem(40px) rem(40px);
+    font-weight: 700;
+    line-height: rem(17px);
+    text-decoration: underline;
+  
+    @media (max-width: 470px) {
+      display: flex;
+      justify-content: center;
+      margin-top: rem(30px);
+      margin-left: 0;
+    }
+  }
+}
